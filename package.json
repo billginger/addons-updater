@@ -1,0 +1,24 @@
+{
+  "name": "addons-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billginger/addons-updater.git"
+  },
+  "author": "Fenggong Jiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/billginger/addons-updater/issues"
+  },
+  "homepage": "https://github.com/billginger/addons-updater#readme",
+  "dependencies": {
+    "puppeteer": "^19.2.2",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
+  }
+}
